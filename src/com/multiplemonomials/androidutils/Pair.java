@@ -2,7 +2,14 @@ package com.multiplemonomials.androidutils;
 
 public class Pair<First, Second> 
 {
-	First _first;
+	public First _first;
 	
-	Second _second;
+	public Second _second;
+	
+	public Pair(First first, Second second)
+	{
+		_first = first;
+		
+		_second = second;
+	}
 }

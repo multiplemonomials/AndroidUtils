@@ -15,7 +15,7 @@ public class LineReader
 	InputStream    		_inputStream;
 	BufferedReader 		_bufferedReader;
 	//String         	justReadLine;
-	int 				_currentLine;
+	public int 				_currentLine;
 	
 	// Ctor.
 	public LineReader(File file) throws FileNotFoundException
